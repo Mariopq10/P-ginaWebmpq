@@ -13,13 +13,13 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
     body {
         font-size: 12px;
     }
 }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 651px) {
     body {
         font-size: 16px;
     }
@@ -44,20 +44,54 @@ body {
     text-align: center;
     transition: .5s ease-out all;
 }
-h1{
+
+h1 {
     text-align: center;
-    color:#807155 ;
+    color: #807155;
 }
+
+p {
+    margin: 3px;
+    padding: 4px;
+}
+
 #tarkovimage {
     display: flex;
     justify-content: center;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin: 10px;
+    min-width:80%;
+
+}
+#p1{
+    min-width: 20%;
+}
+#imagen1 {
+    max-width: 270px;
+    max-height: 152px;
+    box-shadow: 0 0 10px #807155;
+    margin: auto;
+   
+}
+
+#imagen2 {
+    max-width: 270px;
+    max-height: 152px;
+    box-shadow: 0 0 10px #807155;
+    margin: auto;
+
 }
 
 #centro {
     
     padding: 4px;
     max-width: 1200px;
-    width: 100%;
+    
     height: 100vh;
     box-shadow: 0 0 10px #000000;
     margin: auto;
