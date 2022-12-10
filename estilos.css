@@ -12,22 +12,27 @@ body {
     background-position: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 @media only screen and (max-width: 600px) {
     body {
-    font-size: 12px;
+        font-size: 12px;
     }
-    }
-    
-    @media only screen and (min-width: 601px) {
+}
+
+@media only screen and (min-width: 601px) {
     body {
-    font-size: 16px;
+        font-size: 16px;
     }
-    }
+}
+
 * {
     box-sizing: border-box;
 }
 
 .navbar {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
     background: #403d34;
 }
 
@@ -39,22 +44,25 @@ body {
     text-align: center;
     transition: .5s ease-out all;
 }
-p{
-    
+h1{
+    text-align: center;
+    color:#807155 ;
 }
-#tarkovimage{
+#tarkovimage {
     display: flex;
     justify-content: center;
 }
+
 #centro {
+    
     padding: 4px;
     max-width: 1200px;
     width: 100%;
-    height: 1000px;
-    border: 1px solid red;
+    height: 100vh;
+    box-shadow: 0 0 10px #000000;
     margin: auto;
-    color: wheat;
-    background-color:rgba(0, 0, 0, 0.500);
+    color: #adadaf;
+    background-color: rgba(0, 0, 0, 0.700);
 }
 
 #mapa:hover {
