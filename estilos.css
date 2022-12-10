@@ -58,7 +58,7 @@ p{
 }
 
 #mapa:hover {
-    background-image: url(https://loading.io/s/icon/v0bwgt.svg);
+    background-image: url(https://raw.githubusercontent.com/Mariopq10/P-ginaWebmpq/main/mapa.svg);
     background-size: 15%;
     background-position: center;
     background-repeat: no-repeat;
@@ -67,7 +67,7 @@ p{
 }
 
 #info:hover {
-    background-image: url(info.svg);
+    background-image: url(https://raw.githubusercontent.com/Mariopq10/P-ginaWebmpq/main/info.svg);
     background-size: 15%;
     background-repeat: no-repeat;
     background-position: center;
