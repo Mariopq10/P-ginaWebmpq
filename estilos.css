@@ -17,6 +17,12 @@ body {
     body {
         font-size: 12px;
     }
+    #imagen1{
+        width: 150px;
+    }
+    #imagen2{
+        width: 150px;
+    }
 }
 
 @media only screen and (min-width: 651px) {
@@ -72,7 +78,7 @@ p {
 
 }
 #p1{
-    min-width: 20%;
+   
 }
 #imagen1 {
     max-width: 270px;
@@ -104,7 +110,7 @@ p {
 
 #mapa:hover {
     background-image: url(https://raw.githubusercontent.com/Mariopq10/P-ginaWebmpq/main/mapa.svg);
-    background-size: 15%;
+    background-size: 12%;
     background-position: center;
     background-repeat: no-repeat;
     text-decoration: none;
@@ -113,7 +119,7 @@ p {
 
 #info:hover {
     background-image: url(https://raw.githubusercontent.com/Mariopq10/P-ginaWebmpq/main/info.svg);
-    background-size: 15%;
+    background-size: 9%;
     background-repeat: no-repeat;
     background-position: center;
     text-decoration: none;
