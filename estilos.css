@@ -17,10 +17,15 @@ body {
     body {
         font-size: 12px;
     }
-    #imagen1{
+
+    #imagen1 {
         width: 150px;
     }
-    #imagen2{
+
+    #imagen2 {
+        width: 150px;
+    }
+    #logo {
         width: 150px;
     }
 }
@@ -49,20 +54,22 @@ body {
     width: 100%;
     text-align: center;
     transition: .5s ease-out all;
-    font-weight:900;
+    font-weight: 900;
 }
 
 h1 {
     text-align: center;
     color: #807155;
 }
+
 h2 {
     text-align: center;
     color: #807155;
 }
+
 p {
     margin: 3px;
-    padding: 4px;
+    padding-left: 10px;
 }
 
 #tarkovimage {
@@ -72,11 +79,8 @@ p {
 
 .div1 {
     display: flex;
-    flex-direction: row;
-    justify-content: right;
     margin: 10px;
-    min-width:80%;
-
+    min-width: 80%;
 }
 
 #imagen1 {
@@ -84,35 +88,35 @@ p {
     max-height: 152px;
     box-shadow: 0 0 10px #807155;
     margin: auto;
-   
 }
-
-#imagen2 {
-    max-width: 270px;
-    max-height: 152px;
+#logo{
+    max-width: 220px;
     box-shadow: 0 0 10px #807155;
     margin: auto;
-
+    
 }
 
+
+
+
 #centro {
-    
+
     padding: 4px;
     max-width: 1200px;
-    
     height: max-content;
     box-shadow: 0 0 10px #000000;
     margin: auto;
     color: #adadaf;
     background-color: rgba(0, 0, 0, 0.700);
 }
-#fotomapa{
-width: 30%;
+
+#fotomapa {
+    width: 30%;
 }
 
 #mapa:hover {
     background-image: url(https://raw.githubusercontent.com/Mariopq10/P-ginaWebmpq/main/mapa.svg);
-    background-size: 12%;
+    background-size: 10%;
     background-position: center;
     background-repeat: no-repeat;
     text-decoration: none;
@@ -127,6 +131,14 @@ width: 30%;
     text-decoration: none;
     color: transparent;
 
+}
+
+.expand {
+    transition: transform 0.65s;
+}
+
+.expand:hover {
+    transform: scale(1.5);
 }
 
 
