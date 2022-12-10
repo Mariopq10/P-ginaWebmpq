@@ -67,7 +67,7 @@ p{
 }
 
 #info:hover {
-    background-image: url(https://loading.io/s/icon/cfs12s.svg);
+    background-image: url(info.svg);
     background-size: 15%;
     background-repeat: no-repeat;
     background-position: center;
