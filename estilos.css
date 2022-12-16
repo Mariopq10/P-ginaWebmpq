@@ -157,10 +157,13 @@ footer {
     width: 100%;
 }
 #portaFoto{
-    width: 99%;
+    width: 98%;
 }
 
 #MarioBros{
-    width: 99%;
+    width: 98%;
 
+}
+img{
+    max-width: 1200px;
 }
